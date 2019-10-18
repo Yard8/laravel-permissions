@@ -28,7 +28,7 @@ trait HasPermissions
     /**
      * Check if a user has any of the permissions assigned to them.
      *
-     * @param  array  $permission
+     * @param  array  $permissions
      * @return  boolean
      */
     public function hasAnyPermission($permissions)
