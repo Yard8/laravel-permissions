@@ -1,0 +1,51 @@
+{
+    "name": "yard8/laravel-permissions",
+    "description": "Creates user roles and the various permissions your application would use for authorisation.",
+    "keywords": [
+        "yard8",
+        "laravel-permissions"
+    ],
+    "homepage": "https://github.com/Yard8/laravel-permissions",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jason Hodkinson",
+            "email": "jason@yard8.co.za",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^5.5|^6"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yard8\\LaravelPermissions\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yard8\\LaravelPermissions\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yard8\\LaravelPermissions\\LaravelPermissionsServiceProvider"
+            ]
+        }
+    }
+}
