@@ -1,10 +1,10 @@
 <?php
 
-namespace Yard8\LaravelPermisisons\Traits;
+namespace Yard8\LaravelPermissions\Traits;
 
 use Illuminate\Support\Str;
-use Yard8\LaravelPermisisons\Models\Permission;
-use Yard8\LaravelPermisisons\Models\Role;
+use Yard8\LaravelPermissions\Models\Permission;
+use Yard8\LaravelPermissions\Models\Role;
 
 trait HasPermissions
 {
