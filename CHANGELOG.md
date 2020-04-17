@@ -17,3 +17,7 @@ All notable changes to `laravel-permissions` will be documented in this file
 ## 1.0.3 - 2020-04-16
 
 - Fixed typos in namespaces
+
+## 1.0.4 - 2020-04-17
+
+- Fixed issue with permissions failing to save to roles
