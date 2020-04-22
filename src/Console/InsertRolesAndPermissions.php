@@ -63,7 +63,7 @@ class InsertRolesAndPermissions extends Command
 
             if ($role) {
                 $permissionsToSync = $allPermissions->find($permissionsForRole);
-                $role->permission()->sync($permissionsToSync);
+                $role->permissions()->sync($permissionsToSync);
             }
         }
 
