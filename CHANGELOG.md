@@ -21,3 +21,7 @@ All notable changes to `laravel-permissions` will be documented in this file
 ## 1.0.4 - 2020-04-17
 
 - Fixed issue with permissions failing to save to roles
+
+## 1.0.5 - 2020-04-22
+
+- Fixed issue with permissions failing to save to roles
